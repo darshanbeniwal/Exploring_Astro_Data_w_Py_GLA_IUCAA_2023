@@ -98,7 +98,7 @@ print("Fitted b =", b_fit, "+/-", b_error)
 
 ```
 
-## Plot mock data best fit curve
+## Plot mock data best fit curve and Save it
 ```python
 xfine = np.arange(0,5.2,0.001)
 ypred = result.eval(x=xfine)
@@ -113,14 +113,8 @@ plt.grid(False)
 plt.xlabel('$z$')
 plt.ylabel('$H(z)$')
 plt.legend(loc="upper left")
-
-
-```
-
-## Save Final Output
-```python
 plt.savefig('Linear_model_fit_mock_data_u_lmfit.pdf', format='pdf', dpi=1200)
 
-
-
 ```
+
+## =================================================================
