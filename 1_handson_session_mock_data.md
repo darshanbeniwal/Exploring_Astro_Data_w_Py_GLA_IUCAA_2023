@@ -85,25 +85,27 @@ plt.plot(df_1_sig['a'],df_1_sig['b'],'b.')
 ## 95.45%  confidence level
 ```python
 
-
+df_2_sig = df[(round(df['chi2'],2) ==round (df_min[2]+6.18,2))]
+df_2_sig
 
 ```
 ## Plot  95.45%  Confidence Level
 ```python
 
-
+plt.plot(df_2_sig['a'],df_2_sig['b'],'r.')
 
 ```
 ## 99.70%  confidence level
 ```python
 
-
+df_3_sig = df[(round(df['chi2'],2) ==round (df_min[2]+11.83,2))]
+df_3_sig
 
 ```
 ## Plot  99.7%  Confidence Level
 ```python
 
-
+plt.plot(df_3_sig['a'],df_3_sig['b'],'g.')
 
 ```
 
