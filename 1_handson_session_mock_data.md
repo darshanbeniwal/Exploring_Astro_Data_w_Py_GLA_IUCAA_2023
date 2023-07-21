@@ -125,6 +125,7 @@ plt.tight_layout()
 
 ## Save Final Output
 ```python
+plt.savefig('Linear_model_fit_mock_data_Basic.pdf', format='pdf', dpi=1200)
 
 
 
